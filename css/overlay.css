@@ -1,0 +1,33 @@
+.hoverCard:hover{
+display: inline-block;
+background-color: rgba(108, 255, 103, 0.3);
+}
+
+.button {
+position: absolute;
+top: 180px;
+text-align: center;
+opacity: 0;
+transition: opacity .35s ease;
+display: flex;
+cursor: pointer;
+}
+
+
+
+.hoverCard:hover .button {
+opacity: 1;
+}
+
+
+.heart {
+height: 40px;
+width: 40px;
+transform: translateX(25px);
+}
+
+.plus {
+height: 40px;
+width: 40px;
+transform: translateX(55px);
+}
